@@ -35,7 +35,7 @@ const arr = [
 
 var first = 0;
 var second = 0;
-var e = 3;
+var e = arr[0].length;
 
 for (let i = 0; i < arr.length; i++) {
   e -= 1;
@@ -43,4 +43,4 @@ for (let i = 0; i < arr.length; i++) {
   second += arr[i][e];
 }
 
-console.log(first - second);
+console.log(second - first);
