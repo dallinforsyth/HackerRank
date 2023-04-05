@@ -27,20 +27,41 @@
 // console.log(arr[1][1]);
 // console.log(arr[2][0]);
 
-const arr = [
-  [11, 2, 4],
-  [4, 5, 6],
-  [10, 8, -12],
-];
+// const arr = [
+//   [11, 2, 4],
+//   [4, 5, 6],
+//   [10, 8, -12],
+// ];
 
-var first = 0;
-var second = 0;
-var e = arr[0].length;
+// var first = 0;
+// var second = 0;
+// var e = arr[0].length;
 
-for (let i = 0; i < arr.length; i++) {
-  e -= 1;
-  first += arr[i][i];
-  second += arr[i][e];
+// for (let i = 0; i < arr.length; i++) {
+//   e -= 1;
+//   first += arr[i][i];
+//   second += arr[i][e];
+// }
+
+// console.log(second - first);
+var arr = [-4, 3, -9, 0, 4, 1];
+
+function plusMinus(arr) {
+  var neg = 0.0;
+  var zero = 0.0;
+  var pos = 0.0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 0) {
+      pos += 1;
+    } else if (arr[i] === 0) {
+      zero += 1;
+    } else if (arr[i] < 0) {
+      neg += 1;
+    }
+  }
+  var posRatio = (pos / arr.length).toFixed(6);
+  var negRatio = (neg / arr.length).toFixed(6);
+  var zeroRatio = (zero / arr.length).toFixed(6);
+  return posRatio, negRatio, zeroRatio;
 }
-
-console.log(second - first);
+console.log(plusMinus(arr));
