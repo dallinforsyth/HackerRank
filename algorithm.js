@@ -44,24 +44,32 @@
 // }
 
 // console.log(second - first);
-var arr = [-4, 3, -9, 0, 4, 1];
+// var arr = [-4, 3, -9, 0, 4, 1];
 
-function plusMinus(arr) {
-  var neg = 0.0;
-  var zero = 0.0;
-  var pos = 0.0;
+// function plusMinus(arr) {
+//   var neg = 0.0;
+//   var zero = 0.0;
+//   var pos = 0.0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > 0) {
+//       pos += 1;
+//     } else if (arr[i] === 0) {
+//       zero += 1;
+//     } else if (arr[i] < 0) {
+//       neg += 1;
+//     }
+//   }
+//   var posRatio = (pos / arr.length).toFixed(6);
+//   var negRatio = (neg / arr.length).toFixed(6);
+//   var zeroRatio = (zero / arr.length).toFixed(6);
+//   return posRatio, negRatio, zeroRatio;
+// }
+// console.log(plusMinus(arr));
+
+var arr = [1, 2, 3, 4, 5];
+
+function miniMaxSum(arr) {
   for (let i = 0; i < arr.length; i++) {
-    if (arr[i] > 0) {
-      pos += 1;
-    } else if (arr[i] === 0) {
-      zero += 1;
-    } else if (arr[i] < 0) {
-      neg += 1;
-    }
+    if arr i
   }
-  var posRatio = (pos / arr.length).toFixed(6);
-  var negRatio = (neg / arr.length).toFixed(6);
-  var zeroRatio = (zero / arr.length).toFixed(6);
-  return posRatio, negRatio, zeroRatio;
 }
-console.log(plusMinus(arr));
