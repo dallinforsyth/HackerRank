@@ -69,7 +69,28 @@
 var arr = [1, 2, 3, 4, 5];
 
 function miniMaxSum(arr) {
+  var min = arr[0];
+  var max = arr[0];
   for (let i = 0; i < arr.length; i++) {
-    if arr i
+    if (min > arr[i]) {
+      min = arr[i];
+    } else if (max < arr[i]) {
+      max = arr[i];
+    }
   }
+  var minSum = 0;
+  var maxSum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] !== min) {
+      maxSum === maxSum + arr[i];
+      console.log(arr[i], "hello");
+    } else if (arr[i] !== max) {
+      minSum === minSum + arr[i];
+      console.log(arr[i], "byr");
+    }
+  }
+  console.log(minSum);
+  console.log(maxSum);
 }
+
+miniMaxSum(arr);
