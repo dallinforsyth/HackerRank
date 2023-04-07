@@ -66,29 +66,29 @@
 // }
 // console.log(plusMinus(arr));
 
-var arr = [5, 5, 5, 5, 5];
+// var arr = [5, 5, 5, 5, 5];
 
-function miniMaxSum(arr) {
-  var min = arr[0];
-  var max = arr[0];
-  for (let i = 0; i < arr.length; i++) {
-    if (min > arr[i]) {
-      min = arr[i];
-    } else if (max < arr[i]) {
-      max = arr[i];
-    }
-  }
-  var minSum = 0;
-  var maxSum = 0;
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] !== min) {
-      maxSum += arr[i];
-    }
-    if (arr[i] !== max) {
-      minSum += arr[i];
-    }
-  }
-  console.log(minSum, maxSum);
-}
+// function miniMaxSum(arr) {
+//   var min = arr[0];
+//   var max = arr[0];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (min > arr[i]) {
+//       min = arr[i];
+//     } else if (max < arr[i]) {
+//       max = arr[i];
+//     }
+//   }
+//   var minSum = 0;
+//   var maxSum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] !== min) {
+//       maxSum += arr[i];
+//     }
+//     if (arr[i] !== max) {
+//       minSum += arr[i];
+//     }
+//   }
+//   console.log(minSum, maxSum);
+// }
 
-miniMaxSum(arr);
+// miniMaxSum(arr);
