@@ -110,4 +110,4 @@ function birthdayCakeCandles(candles) {
   console.log(numOfMax);
 }
 
-birthdayCakeCandles([3, 2, 1, 3]);
+birthdayCakeCandles([82, 49, 82, 82, 41, 82, 15, 63, 38, 25]);
