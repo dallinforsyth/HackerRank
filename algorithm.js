@@ -92,3 +92,9 @@
 // }
 
 // miniMaxSum(arr);
+
+function birthdayCakeCandles(candles) {
+  console.log(candles);
+}
+
+birthdayCakeCandles([3, 2, 1, 3]);
