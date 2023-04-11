@@ -94,7 +94,20 @@
 // miniMaxSum(arr);
 
 function birthdayCakeCandles(candles) {
-  console.log(candles);
+  var max = candles[0];
+  var numOfMax = 0;
+  for (let i = 0; i < candles.length; i++) {
+    if (candles[i] > max) {
+      max = candles[i];
+    }
+  }
+  for (let i = 0; i < candles.length; i++) {
+    if (candles[i] === max) {
+      numOfMax += 1;
+    }
+  }
+
+  console.log(numOfMax);
 }
 
 birthdayCakeCandles([3, 2, 1, 3]);
