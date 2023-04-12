@@ -114,7 +114,15 @@
 
 function timeConversion(s) {
   var ampm = s.slice(-2);
-  var time = s.slice(0, 2);
-  console.log();
+  var time = Number(s.slice(0, 2));
+
+  if (ampm === "PM") {
+    time += 12;
+    if (time === "24") {
+      time === 00;
+    }
+  }
+
+  console.log(time);
 }
 timeConversion("07:05:45PM");
