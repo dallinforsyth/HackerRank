@@ -113,17 +113,20 @@
 // birthdayCakeCandles([82, 49, 82, 82, 41, 82, 15, 63, 38, 25]);
 
 function timeConversion(s) {
-  var ampm = s.slice(-2);
+  var pm = s.slice(-2);
   var time = Number(s.slice(0, 2));
   var total = s.slice(2, -2);
-
-  if (ampm === "PM") {
-    time += 12;
-    if (time === 24) {
+  var am = s.slice(0, -2);
+  if (pm === "PM") {
+    if (time < 12) {
+      time += 12;
+    } else if (time === 12) {
       time = "00";
     }
+    return time + total;
+  } else {
+    // time.toString + console.log(time);
+    return am;
   }
-  // time.toString + console.log(time);
-  console.log(time + total);
 }
-timeConversion("07:05:45PM");
+console.log(timeConversion("12:00:00PM"));
