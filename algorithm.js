@@ -132,5 +132,7 @@
 // console.log(timeConversion("12:00:00PM"));
 
 function gradingStudents(grades) {
-  // Write your code here
+  return grades;
 }
+
+console.log(gradingStudents([73, 67, 38, 33]));
