@@ -112,21 +112,25 @@
 
 // birthdayCakeCandles([82, 49, 82, 82, 41, 82, 15, 63, 38, 25]);
 
-function timeConversion(s) {
-  var pm = s.slice(-2);
-  var time = Number(s.slice(0, 2));
-  var total = s.slice(2, -2);
-  var am = s.slice(0, -2);
-  if (pm === "PM") {
-    if (time < 12) {
-      time += 12;
-    } else if (time === 12) {
-      time = "00";
-    }
-    return time + total;
-  } else {
-    // time.toString + console.log(time);
-    return am;
-  }
+// function timeConversion(s) {
+//   var pm = s.slice(-2);
+//   var time = Number(s.slice(0, 2));
+//   var total = s.slice(2, -2);
+//   var am = s.slice(0, -2);
+//   if (pm === "PM") {
+//     if (time < 12) {
+//       time += 12;
+//     } else if (time === 12) {
+//       time = "00";
+//     }
+//     return time + total;
+//   } else {
+//     // time.toString + console.log(time);
+//     return am;
+//   }
+// }
+// console.log(timeConversion("12:00:00PM"));
+
+function gradingStudents(grades) {
+  // Write your code here
 }
-console.log(timeConversion("12:00:00PM"));
