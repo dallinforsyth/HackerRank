@@ -134,7 +134,7 @@
 function gradingStudents(grades) {
   return grades;
   if
-  else
+  else 
 }
 
 console.log(gradingStudents([73, 67, 38, 33]));
