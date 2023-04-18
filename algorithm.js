@@ -133,8 +133,10 @@
 
 function gradingStudents(grades) {
   for (let i = 0; i < grades.length; i++) {
-    if (grades[i] < 40) {
-      grades[i] = 40;
+    if (grades[i] < 37) {
+      break;
+    } else if (grades[i] % 100) {
+      grades[i] + 2;
     }
   }
   return grades;
