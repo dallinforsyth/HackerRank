@@ -132,9 +132,12 @@
 // console.log(timeConversion("12:00:00PM"));
 
 function gradingStudents(grades) {
+  for (let i = 0; i < grades.length; i++) {
+    if (grades[i] < 40) {
+      grades[i] = 40;
+    }
+  }
   return grades;
-  if
-  else 
 }
 
 console.log(gradingStudents([73, 67, 38, 33]));
