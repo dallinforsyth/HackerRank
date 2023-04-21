@@ -293,4 +293,7 @@
 
 function readLine() {
   return inputString[currentLine++];
+  if {
+    
+  }
 }
