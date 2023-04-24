@@ -304,6 +304,7 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
       orangeHit += 1;
     }
   }
-  return appleHit, orangeHit;
+  console.log(appleHit);
+  console.log(orangeHit);
 }
-console.log(countApplesAndOranges(7, 11, 5, 15, [-2, 2, 1], [5, -6]));
+countApplesAndOranges(7, 11, 5, 15, [-2, 2, 1], [5, -6]);
