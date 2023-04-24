@@ -294,12 +294,12 @@
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
   var appleHit = 0;
   var orangeHit = 0;
-  for (let i = 0; i < apples; i++) {
+  for (let i = 0; i < apples.length; i++) {
     if (apples[i] + a <= t && apples[i] + a >= s) {
       appleHit += 1;
     }
   }
-  for (let e = 0; e < oranges; e++) {
+  for (let e = 0; e < oranges.length; e++) {
     if (oranges[e] + b <= t && oranges[e] >= s) {
       orangeHit += 1;
     }
