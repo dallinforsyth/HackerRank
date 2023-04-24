@@ -299,5 +299,11 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
       appleHit += 1;
     }
   }
+  for (let e = 0; e < oranges; e++) {
+    if (oranges[e] + b <= t && oranges[e] >= s) {
+      orangeHit += 1;
+    }
+  }
+  return appleHit, orangeHit;
 }
 console.log(countApplesAndOranges(7, 11, 5, 15, [-2, 2, 1], [5, -6]));
