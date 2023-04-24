@@ -291,9 +291,6 @@
 
 // console.log(gradingStudents([73, 67, 38, 33]));
 
-function readLine() {
-  return inputString[currentLine++];
-  if {
-    esle
-  }
+function countApplesAndOranges(s, t, a, b, apples, oranges) {
+  console.log(s, t, a, b, apples, oranges);
 }
