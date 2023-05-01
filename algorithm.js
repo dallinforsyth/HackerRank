@@ -308,3 +308,10 @@
 //   console.log(orangeHit);
 // }
 // countApplesAndOranges(7, 11, 5, 15, [-2, 2, 1], [5, -6]);
+
+function kangaroo(x1, v1, x2, v2) {
+  console.log(x1);
+  console.log(x2);
+  console.log(v1);
+  console.log(v2);
+}
