@@ -291,20 +291,20 @@
 
 // console.log(gradingStudents([73, 67, 38, 33]));
 
-function countApplesAndOranges(s, t, a, b, apples, oranges) {
-  var appleHit = 0;
-  var orangeHit = 0;
-  for (let i = 0; i < apples.length; i++) {
-    if (apples[i] + a <= t && apples[i] + a >= s) {
-      appleHit += 1;
-    }
-  }
-  for (let e = 0; e < oranges.length; e++) {
-    if (oranges[e] + b <= t && oranges[e] + b >= s) {
-      orangeHit += 1;
-    }
-  }
-  console.log(appleHit);
-  console.log(orangeHit);
-}
-countApplesAndOranges(7, 11, 5, 15, [-2, 2, 1], [5, -6]);
+// function countApplesAndOranges(s, t, a, b, apples, oranges) {
+//   var appleHit = 0;
+//   var orangeHit = 0;
+//   for (let i = 0; i < apples.length; i++) {
+//     if (apples[i] + a <= t && apples[i] + a >= s) {
+//       appleHit += 1;
+//     }
+//   }
+//   for (let e = 0; e < oranges.length; e++) {
+//     if (oranges[e] + b <= t && oranges[e] + b >= s) {
+//       orangeHit += 1;
+//     }
+//   }
+//   console.log(appleHit);
+//   console.log(orangeHit);
+// }
+// countApplesAndOranges(7, 11, 5, 15, [-2, 2, 1], [5, -6]);
