@@ -309,23 +309,25 @@
 // }
 // countApplesAndOranges(7, 11, 5, 15, [-2, 2, 1], [5, -6]);
 
-function kangaroo(x1, v1, x2, v2) {
-  if (x1 < x2) {
-    for (let i = 0; x1 !== x2 && x1 > 10000; i++) {
-      x1 += v1;
-    }
-    if (x1 === x2) {
-      return "YES";
-    }
-  } else if (x2 < x1) {
-    for (let i = 0; x2 !== x1 && x2 > 10000; i++) {
-      x2 += v2;
-    }
-    if (x2 === x1) {
-      return "YES";
-    }
-  } else {
-    return "NO";
-  }
-}
-console.log(kangaroo(0, 3, 4, 2));
+// function kangaroo(x1, v1, x2, v2) {
+//   if (x1 < x2) {
+//     for (let i = 0; x1 < x2 && i <= 10000; i++) {
+//       x1 += v1;
+//       x2 += v2;
+//     }
+//     if (x1 === x2) {
+//       return "YES";
+//     }
+//   } else if (x2 < x1) {
+//     for (let i = 0; x2 < x1 && i <= 10000; i++) {
+//       x1 += v1;
+//       x2 += v2;
+//     }
+//     if (x2 === x1) {
+//       return "YES";
+//     }
+//   }
+//   return "NO";
+// }
+
+// console.log(kangaroo(0, 3, 4, 2));
