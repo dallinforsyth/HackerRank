@@ -331,3 +331,7 @@
 // }
 
 // console.log(kangaroo(0, 3, 4, 2));
+
+function getTotalX(a, b) {
+  // Write your code here
+}
