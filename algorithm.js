@@ -341,7 +341,8 @@
 // }
 
 function breakingRecords(scores) {
-  for (i > scores; i++)
+  for for (let i = 0; i < candles.length; i++)
+  
 }
 
 console.log(breakingRecords(10, 5, 20, 20, 4, 5, 2, 25, 1));
