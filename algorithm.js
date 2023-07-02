@@ -332,10 +332,10 @@
 
 // console.log(kangaroo(0, 3, 4, 2));
 
-function getTotalX(a, b) {
-  // Write your code here
-}
+// function getTotalX(a, b) {
+//   // Write your code here
+// }
 
-function birthday(s, d, m) {
-  // Write your code hereeeeee
-}
+// function birthday(s, d, m) {
+//   // Write your code hereeeeee
+// }
