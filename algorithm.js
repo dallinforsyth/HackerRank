@@ -348,10 +348,11 @@ function breakingRecords(scores) {
   for (let i = 0; i < scores.length; i++) {
     if (scores[i] > max) {
       max + 1;
-    } else if (scores[i] < min) 
+    } else if (scores[i] < min) {
+      min + 1;
+    }
   }
-
-
+  return max, min;
 }
 
 console.log(breakingRecords(10, 5, 20, 20, 4, 5, 2, 25, 1));
