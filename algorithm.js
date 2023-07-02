@@ -339,3 +339,7 @@
 // function birthday(s, d, m) {
 //   // Write your code hereeeeee
 // }
+
+function breakingRecords(scores) {
+  // Write your code here
+}
