@@ -341,10 +341,14 @@
 // }
 
 function breakingRecords(scores) {
-  var max = scores[0]
-  var min = scores[0]
+  var max = scores[0];
+  var min = scores[0];
+  var maxCount = 0;
+  var minCount = 0;
   for (let i = 0; i < scores.length; i++) {
-    if ()
+    if (scores[i] > max) {
+      max + 1;
+    } else if (scores[i] < min) 
   }
 
 
