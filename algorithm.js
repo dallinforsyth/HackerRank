@@ -341,8 +341,9 @@
 // }
 
 function breakingRecords(scores) {
+  var max = scores[0]
+  var min = 
   for (let i = 0; i < scores.length; i++) {
-    var max = scores[0]
     if 
   }
 
