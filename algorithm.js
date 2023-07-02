@@ -341,7 +341,11 @@
 // }
 
 function breakingRecords(scores) {
-  for (let i = 0; i < scores.length; i++)
+  for (let i = 0; i < scores.length; i++) {
+    var max = scores[0]
+    if 
+  }
+
 
 }
 
