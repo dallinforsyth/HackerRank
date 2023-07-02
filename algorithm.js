@@ -363,4 +363,4 @@ function getTotalX(a, b) {
   // Write your code here
 }
 
-getTotalX([2, 3]);
+getTotalX([2, 3], [2, 4]);
