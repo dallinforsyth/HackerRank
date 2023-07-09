@@ -360,7 +360,7 @@
 // breakingRecords([10, 5, 20, 20, 4, 5, 2, 25, 1]);
 
 function getTotalX(a, b) {
-  // Write your code hereeeeeeeeeeee
+  // Write your code hereeeeeeeeeeeee
 }
 
 getTotalX([2, 4], [16, 32, 96]);
