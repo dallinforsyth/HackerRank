@@ -361,6 +361,7 @@
 
 function getTotalX(a, b) {
   // Write your code hereeeeeeeeeeeee
+  for (let i = 0)
 }
 
 getTotalX([2, 4], [16, 32, 96]);
