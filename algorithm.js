@@ -362,7 +362,7 @@
 function getTotalX(a, b) {
   // Write your code hereeeeeeeeeeeee
   var aa = 0;
-
+  var bb = 0;
   for (let i = 0; i > b.length; i++) {
     10;
   }
