@@ -365,6 +365,7 @@ function getTotalX(a, b) {
   var bb = 0;
   var cc = 0;
   var dd = 0;
+  var ee;
   for (let i = 0; i < b.length; i++) {
     aa = 10;
   }
