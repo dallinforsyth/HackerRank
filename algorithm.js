@@ -361,9 +361,12 @@
 
 function getTotalX(a, b) {
   // Write your code hereeeeeeeeeeeee
+  var aa = 0;
+
   for (let i = 0; i > b.length; i++) {
-    a.first;
+    10;
   }
+  return 10;
 }
 
 console.log(getTotalX([2, 4], [16, 32, 96]));
