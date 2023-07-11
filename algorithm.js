@@ -365,10 +365,10 @@ function getTotalX(a, b) {
   var bb = 0;
   var cc = 0;
   var dd = 0;
-  for (let i = 0; i > b.length; i++) {
-    10;
+  for (let i = 0; i < b.length; i++) {
+    aa = 10;
   }
-  return 10;
+  return aa;
 }
 
 console.log(getTotalX([2, 4], [16, 32, 96]));
