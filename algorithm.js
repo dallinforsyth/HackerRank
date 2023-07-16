@@ -375,5 +375,5 @@
 // console.log(getTotalX([2, 4], [16, 32, 96]));
 
 function birthday(s, d, m) {
-  // Write your code hereeee
+  // Write your code hereeeee
 }
