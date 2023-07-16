@@ -359,17 +359,21 @@
 
 // breakingRecords([10, 5, 20, 20, 4, 5, 2, 25, 1]);
 
-function getTotalX(a, b) {
-  // Write your code hereeeeeeeeeeeeee
-  var aa = 0;
-  var bb = 0;
-  var cc = 0;
-  var dd = 0;
-  var ee;
-  for (let i = 0; i < b.length; i++) {
-    aa = 10;
-  }
-  return aa;
-}
+// function getTotalX(a, b) {
+//   // Write your code hereeeeeeeeeeeeee
+//   var aa = 0;
+//   var bb = 0;
+//   var cc = 0;
+//   var dd = 0;
+//   var ee;
+//   for (let i = 0; i < b.length; i++) {
+//     aa = 10;
+//   }
+//   return aa;
+// }
 
-console.log(getTotalX([2, 4], [16, 32, 96]));
+// console.log(getTotalX([2, 4], [16, 32, 96]));
+
+function birthday(s, d, m) {
+  // Write your code here
+}
