@@ -359,14 +359,24 @@
 
 // breakingRecords([10, 5, 20, 20, 4, 5, 2, 25, 1]);
 
+function moduloZero(number, factor) {
+  return number % factor === 0;
+}
+
 function getTotalX(a, b) {
-  var array = [];
+  var array1 = [];
+  var array2 = [];
   for (let i = 1; i <= 100; i++) {
-    if (i % a[0] === 0 && i % a[1] === 0) {
-      array.push(i);
+    if (a.every((aNumber) => moduloZero(i, aNumber))) {
+      array1.push(i);
     }
   }
-  console.log(array);
+  array1.forEach((number) => {
+    if (b.every((bNumber) => moduloZero(bNumber, number))) {
+      array2.push(number);
+    }
+  });
+  console.log(array2);
 }
 
 getTotalX([2, 4], [16, 32, 96]);
