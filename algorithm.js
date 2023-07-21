@@ -362,11 +362,11 @@
 function getTotalX(a, b) {
   var array = [];
   for (let i = 1; i <= 100; i++) {
-    if (a[0] % i === 0 && a[1] % i === 0) {
+    if (i % a[0] === 0 && i % a[1] === 0) {
       array.push(i);
     }
   }
   console.log(array);
 }
 
-console.log(getTotalX([2, 4], [16, 32, 96]));
+getTotalX([2, 4], [16, 32, 96]);
