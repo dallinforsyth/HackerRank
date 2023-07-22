@@ -367,16 +367,16 @@ function getTotalX(a, b) {
   var array1 = [];
   var array2 = [];
   for (let i = 1; i <= 100; i++) {
-    if (a.every((aNumber) => moduloZero(i, aNumber))) {
+    if (a.every((aNumber) => i % aNumber === 0)) {
       array1.push(i);
     }
   }
   array1.forEach((number) => {
-    if (b.every((bNumber) => moduloZero(bNumber, number))) {
+    if (b.every((bNumber) => bNumber % number === 0)) {
       array2.push(number);
     }
   });
-  console.log(array2);
+  return array2.length;
 }
 
 getTotalX([2, 4], [16, 32, 96]);
