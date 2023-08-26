@@ -286,7 +286,7 @@
 //       grades[i] = grades[i] + 1;
 //     }
 //   }
-//   returssewn grades;
+//   retursseewn grades;
 // }
 
 // console.log(gradingStudents([73, 67, 38, 33]));
